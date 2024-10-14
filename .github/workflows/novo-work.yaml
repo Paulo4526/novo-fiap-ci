@@ -13,3 +13,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
+
+      - name: Subindo a aplicação
+        run: docker compose up --build
