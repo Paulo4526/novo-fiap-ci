@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.time.LocalDate;
 
+
 @Entity
 @Table(name = "TB_MICRO_TORNADO")
 @Getter
@@ -15,7 +16,8 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Tornado {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(generator = "SQ_MICRO_TORNADO", strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "SQ_MICRO_TORNADO", sequenceName = "SQ_MICRO_TORNADO", allocationSize = 1)
     @Column(name = "id_tornado")
     private Long id;
 

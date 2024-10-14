@@ -1,18 +1,20 @@
 services:
   db:
-    container_name: mysql
-    image: "mysql"
+    container_name: oracle-db
+    image: gvenzl/oracle-xe
     ports:
-      - "3306:3306"
+      - "1522:1521"   # Porta padrão do Oracle
+      - "8080:8080"   # Porta para o Enterprise Manager
     environment:
-      - MYSQL_ROOT_PASSWORD=root_pass
+      - ORACLE_PSSWORD=123
 
   api:
     build: .
     ports:
-      - "8080:8080"
+      - "8081:8080"  # Mudei a porta para não conflitar
     environment:
       - PROFILE=dev
-      - DATABASE_URL=jdbc:mysql://db:3306/api?createDatabaseIfNotExist=true
-      - DATABASE_USER=root
-      - DATABASE_PWD=root_pass
+      - DATABASE_URL=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL  # URL do banco de dados
+      - DATABASE_USER=RM98527  # Usuário
+      - DATABASE_PWD=021291  # Senha
+

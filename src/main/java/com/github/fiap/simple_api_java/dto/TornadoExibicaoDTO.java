@@ -1,6 +1,6 @@
 package com.github.fiap.simple_api_java.dto;
-
 import com.github.fiap.simple_api_java.model.Tornado;
+
 import java.time.LocalDate;
 
 public record TornadoExibicaoDTO(
