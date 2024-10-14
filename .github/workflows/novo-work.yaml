@@ -15,4 +15,10 @@ jobs:
           java-version: '21'
 
       - name: Subindo a aplicação
-        run: docker compose up --build
+        run: docker compose up --build -d
+
+      - name: Aguardando a aplicação
+        run: sleep 60
+
+      - name: Desligando a aplicação
+        run: docker compose down
