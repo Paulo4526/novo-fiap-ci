@@ -1,4 +1,4 @@
-name: Teste Tornado/clima
+name: Teste Tornado/clima/dano
 on:
   push:
     branches: "feature/**"
