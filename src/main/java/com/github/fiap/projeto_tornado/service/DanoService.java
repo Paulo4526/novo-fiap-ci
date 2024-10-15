@@ -1,9 +1,9 @@
-package com.github.fiap.simple_api_java.service;
-import com.github.fiap.simple_api_java.Exception.UserNaoEncontrado;
-import com.github.fiap.simple_api_java.dto.DanoCadastroDTO;
-import com.github.fiap.simple_api_java.dto.DanoExibicaoDTO;
-import com.github.fiap.simple_api_java.model.Danos;
-import com.github.fiap.simple_api_java.repository.DanoRepository;
+package com.github.fiap.projeto_tornado.service;
+import com.github.fiap.projeto_tornado.Exception.UserNaoEncontrado;
+import com.github.fiap.projeto_tornado.dto.simple_dto.DanoCadastroDTO;
+import com.github.fiap.projeto_tornado.dto.simple_dto.DanoExibicaoDTO;
+import com.github.fiap.projeto_tornado.model.Danos;
+import com.github.fiap.projeto_tornado.repository.DanoRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

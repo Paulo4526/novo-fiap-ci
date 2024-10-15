@@ -1,9 +1,9 @@
-package com.github.fiap.simple_api_java.controller;
+package com.github.fiap.projeto_tornado.controller;
 
-import com.github.fiap.simple_api_java.dto.ClimaCadastroDTO;
-import com.github.fiap.simple_api_java.dto.ClimaExibicaoDTO;
-import com.github.fiap.simple_api_java.model.Clima;
-import com.github.fiap.simple_api_java.service.ClimaService;
+import com.github.fiap.projeto_tornado.dto.simple_dto.ClimaCadastroDTO;
+import com.github.fiap.projeto_tornado.dto.simple_dto.ClimaExibicaoDTO;
+import com.github.fiap.projeto_tornado.model.Clima;
+import com.github.fiap.projeto_tornado.service.ClimaService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

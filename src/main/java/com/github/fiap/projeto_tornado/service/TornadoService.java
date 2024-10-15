@@ -1,16 +1,15 @@
-package com.github.fiap.simple_api_java.service;
+package com.github.fiap.projeto_tornado.service;
 
-import com.github.fiap.simple_api_java.Exception.UserNaoEncontrado;
-import com.github.fiap.simple_api_java.dto.TornadoCadastroDTO;
-import com.github.fiap.simple_api_java.dto.TornadoExibicaoDTO;
-import com.github.fiap.simple_api_java.model.Tornado;
-import com.github.fiap.simple_api_java.repository.TornadoRepository;
+import com.github.fiap.projeto_tornado.Exception.UserNaoEncontrado;
+import com.github.fiap.projeto_tornado.dto.simple_dto.TornadoCadastroDTO;
+import com.github.fiap.projeto_tornado.dto.simple_dto.TornadoExibicaoDTO;
+import com.github.fiap.projeto_tornado.model.Tornado;
+import com.github.fiap.projeto_tornado.repository.TornadoRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.ConcurrentModel;
 
 import java.time.LocalDate;
 import java.util.List;

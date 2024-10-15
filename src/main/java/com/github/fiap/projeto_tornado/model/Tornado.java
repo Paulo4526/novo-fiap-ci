@@ -1,4 +1,4 @@
-package com.github.fiap.simple_api_java.model;
+package com.github.fiap.projeto_tornado.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

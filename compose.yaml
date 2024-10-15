@@ -17,4 +17,3 @@ services:
       - DATABASE_URL=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL  # URL do banco de dados
       - DATABASE_USER=RM98527  # Usuário
       - DATABASE_PWD=021291  # Senha
-

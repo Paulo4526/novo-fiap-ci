@@ -1,4 +1,4 @@
-package com.github.fiap.simple_api_java.dto;
+package com.github.fiap.projeto_tornado.dto.simple_dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

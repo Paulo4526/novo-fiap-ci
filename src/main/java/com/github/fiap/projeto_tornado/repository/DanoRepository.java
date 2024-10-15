@@ -1,5 +1,5 @@
-package com.github.fiap.simple_api_java.repository;
-import com.github.fiap.simple_api_java.model.Danos;
+package com.github.fiap.projeto_tornado.repository;
+import com.github.fiap.projeto_tornado.model.Danos;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

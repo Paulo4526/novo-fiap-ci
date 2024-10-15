@@ -1,12 +1,10 @@
-package com.github.fiap.simple_api_java.model;
+package com.github.fiap.projeto_tornado.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.time.LocalDate;
 
 @Entity
 @Table(name = "TB_MICRO_DANO")

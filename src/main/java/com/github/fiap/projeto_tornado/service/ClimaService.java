@@ -1,9 +1,9 @@
-package com.github.fiap.simple_api_java.service;
-import com.github.fiap.simple_api_java.Exception.UserNaoEncontrado;
-import com.github.fiap.simple_api_java.dto.ClimaCadastroDTO;
-import com.github.fiap.simple_api_java.dto.ClimaExibicaoDTO;
-import com.github.fiap.simple_api_java.model.Clima;
-import com.github.fiap.simple_api_java.repository.ClimaRepository;
+package com.github.fiap.projeto_tornado.service;
+import com.github.fiap.projeto_tornado.Exception.UserNaoEncontrado;
+import com.github.fiap.projeto_tornado.dto.simple_dto.ClimaCadastroDTO;
+import com.github.fiap.projeto_tornado.dto.simple_dto.ClimaExibicaoDTO;
+import com.github.fiap.projeto_tornado.model.Clima;
+import com.github.fiap.projeto_tornado.repository.ClimaRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

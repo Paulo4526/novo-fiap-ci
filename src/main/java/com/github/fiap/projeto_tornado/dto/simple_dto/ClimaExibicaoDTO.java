@@ -1,6 +1,6 @@
-package com.github.fiap.simple_api_java.dto;
+package com.github.fiap.projeto_tornado.dto.simple_dto;
 
-import com.github.fiap.simple_api_java.model.Clima;
+import com.github.fiap.projeto_tornado.model.Clima;
 
 import java.time.LocalDate;
 

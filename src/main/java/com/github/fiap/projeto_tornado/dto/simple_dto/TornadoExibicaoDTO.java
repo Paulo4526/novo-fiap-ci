@@ -1,5 +1,5 @@
-package com.github.fiap.simple_api_java.dto;
-import com.github.fiap.simple_api_java.model.Tornado;
+package com.github.fiap.projeto_tornado.dto.simple_dto;
+import com.github.fiap.projeto_tornado.model.Tornado;
 
 import java.time.LocalDate;
 

@@ -1,9 +1,8 @@
-package com.github.fiap.simple_api_java.repository;
+package com.github.fiap.projeto_tornado.repository;
 
-import com.github.fiap.simple_api_java.model.Clima;
+import com.github.fiap.projeto_tornado.model.Clima;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.time.LocalDate;
 import java.util.Optional;
 
 public interface ClimaRepository extends JpaRepository<Clima, Long> {
