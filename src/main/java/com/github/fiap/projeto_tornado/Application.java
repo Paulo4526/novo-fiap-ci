@@ -1,4 +1,4 @@
-package com.github.fiap.simple_api_java;
+package com.github.fiap.projeto_tornado;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

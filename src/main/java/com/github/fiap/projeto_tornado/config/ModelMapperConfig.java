@@ -1,4 +1,4 @@
-package com.github.fiap.simple_api_java.config;
+package com.github.fiap.projeto_tornado.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

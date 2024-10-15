@@ -1,0 +1,24 @@
+name: Teste Tornado/clima/dano
+on:
+  push:
+    branches: "feature/**"
+jobs:
+  checkout_java_docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v4
+      - name: Setup Java SDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Subindo a aplicação
+        run: docker compose up --build -d
+
+      - name: Aguardando a aplicação
+        run: sleep 60
+
+      - name: Desligando a aplicação
+        run: docker compose down

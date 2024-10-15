@@ -1,5 +1,5 @@
-package com.github.fiap.simple_api_java.repository;
-import com.github.fiap.simple_api_java.model.Tornado;
+package com.github.fiap.projeto_tornado.repository;
+import com.github.fiap.projeto_tornado.model.Tornado;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

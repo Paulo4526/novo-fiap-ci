@@ -1,4 +1,4 @@
-package com.github.fiap.simple_api_java.Exception;
+package com.github.fiap.projeto_tornado.Exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

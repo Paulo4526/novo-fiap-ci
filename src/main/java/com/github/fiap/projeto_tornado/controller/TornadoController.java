@@ -1,8 +1,9 @@
-package com.github.fiap.simple_api_java.controller;
-import com.github.fiap.simple_api_java.dto.TornadoCadastroDTO;
-import com.github.fiap.simple_api_java.dto.TornadoExibicaoDTO;
-import com.github.fiap.simple_api_java.model.Tornado;
-import com.github.fiap.simple_api_java.service.TornadoService;
+package com.github.fiap.projeto_tornado.controller;
+
+import com.github.fiap.projeto_tornado.dto.simple_dto.TornadoCadastroDTO;
+import com.github.fiap.projeto_tornado.dto.simple_dto.TornadoExibicaoDTO;
+import com.github.fiap.projeto_tornado.model.Tornado;
+import com.github.fiap.projeto_tornado.service.TornadoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
